@@ -44,4 +44,4 @@ jobs:
         run: npm install
 
       - name: Backend Syntax Check
-        run: node src/server.js
+        run: node -c src/server.js
